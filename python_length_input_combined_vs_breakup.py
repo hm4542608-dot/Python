@@ -1,0 +1,21 @@
+#Python_length_input
+#1.count letters in student's name (One-line)
+print("Number of letters in your name is:", len(input("Enter your name: ")))
+#1.count letters in student's name (Break-up version)
+name = input("Enter your name again: ")
+name_length = len(name)
+print("Number of letters in your name is:", name_length)
+# --------------------------------------------
+#2.count characters in favorite Surah (One-line)
+print("Characters in your favorite Surah:", len(input("Enter your favorite Surah name: ")))
+#2.count characters in favorite Surah(Break-up version)
+surah = input("Enter the Surah name again: ")
+surah_length = len(surah)
+print("Characters in your favorite Surah:", surah_length)
+# --------------------------------------------
+#3.count characters in a short sentence (One-line)
+print("Characters in your sentence:", len(input("Write a short sentence: ")))
+#3.count characters in a short sentence(Break-up version)
+sentence = input("Write the sentence again: ")
+sentence_length = len(sentence)
+print("Characters in your sentence:", sentence_length)
